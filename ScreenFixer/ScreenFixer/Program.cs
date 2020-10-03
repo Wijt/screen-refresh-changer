@@ -4,28 +4,40 @@ using System.IO;
 using System.Threading;
 using System.Windows.Forms;
 using System.Windows.Input;
+using System.Runtime.InteropServices;
 
 namespace ScreenFixer
 {
     static class Program
     {
+
+        [DllImport("kernel32.dll")]
+        static extern IntPtr GetConsoleWindow();
+
+        [DllImport("user32.dll")]
+        static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+
+        const int SW_HIDE = 0;
+        const int SW_SHOW = 5;
+
         [STAThread]
         static void Main()
         {
-            string previousRefreshRate = "";
+            string previousRefreshRate = File.ReadAllText("second-screen-refresh-rate.txt");
             string deviceName = "";
             bool isKeyPressed = false;
+            var handle = GetConsoleWindow();
 
             while (true)
             {
                 Thread.Sleep(50);
                 if ((Keyboard.IsKeyDown(Key.LeftCtrl) && Keyboard.IsKeyDown(Key.LeftShift) && Keyboard.IsKeyDown(Key.F)) && !isKeyPressed)
                 {
+                    ShowWindow(handle, SW_SHOW);
                     isKeyPressed = true;
                     if (Screen.AllScreens.Length == 2)
                     {
                         deviceName = Screen.AllScreens[1].DeviceName;
-                        previousRefreshRate = File.ReadAllText("second-screen-refresh-rate.txt");
                         Console.WriteLine("Second device name: " + deviceName + ", Refreshrate: " + previousRefreshRate);
                     }
 
@@ -51,6 +63,7 @@ namespace ScreenFixer
                 if ((Keyboard.IsKeyUp(Key.LeftCtrl) && Keyboard.IsKeyUp(Key.LeftShift) && Keyboard.IsKeyUp(Key.F)) && isKeyPressed)
                 {
                     isKeyPressed = false;
+                    ShowWindow(handle, SW_HIDE);
                 }
             }
         } 
