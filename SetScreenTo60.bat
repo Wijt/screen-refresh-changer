@@ -1,1 +1,0 @@
-"C:\Program Files (x86)\12noon Display Changer\dc64.exe" -monitor="\\.\DISPLAY5" -width=1920 -height=1080 -refresh=60 -depth=32 
