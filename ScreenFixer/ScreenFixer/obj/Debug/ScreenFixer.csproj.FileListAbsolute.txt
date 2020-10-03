@@ -1,0 +1,9 @@
+C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ScreenFixer.exe.config
+C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ScreenFixer.exe
+C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ScreenFixer.pdb
+C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ScreenFixer.csprojAssemblyReference.cache
+C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ScreenFixer.Properties.Resources.resources
+C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ScreenFixer.csproj.GenerateResource.cache
+C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ScreenFixer.csproj.CoreCompileInputs.cache
+C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ScreenFixer.exe
+C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ScreenFixer.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenFixer", "ScreenFixer\ScreenFixer.csproj", "{77DD7D7D-5385-469F-8269-49B70A73D95A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77DD7D7D-5385-469F-8269-49B70A73D95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DD7D7D-5385-469F-8269-49B70A73D95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DD7D7D-5385-469F-8269-49B70A73D95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DD7D7D-5385-469F-8269-49B70A73D95A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F38FCAC-62C5-4FC0-A863-FBB621ED8E95}
+	EndGlobalSection
+EndGlobal
