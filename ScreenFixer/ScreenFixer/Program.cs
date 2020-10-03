@@ -16,19 +16,19 @@ namespace ScreenFixer
             string deviceName = "";
             bool isKeyPressed = false;
 
-            if (Screen.AllScreens.Length == 2)
-            {
-                deviceName = Screen.AllScreens[1].DeviceName;
-                previousRefreshRate = File.ReadAllText("second-screen-refresh-rate.txt");
-                Console.WriteLine("Second device name: " + deviceName + ", Refreshrate: " + previousRefreshRate);
-            }
-
             while (true)
             {
                 Thread.Sleep(50);
                 if ((Keyboard.IsKeyDown(Key.LeftCtrl) && Keyboard.IsKeyDown(Key.LeftShift) && Keyboard.IsKeyDown(Key.F)) && !isKeyPressed)
                 {
                     isKeyPressed = true;
+                    if (Screen.AllScreens.Length == 2)
+                    {
+                        deviceName = Screen.AllScreens[1].DeviceName;
+                        previousRefreshRate = File.ReadAllText("second-screen-refresh-rate.txt");
+                        Console.WriteLine("Second device name: " + deviceName + ", Refreshrate: " + previousRefreshRate);
+                    }
+
                     previousRefreshRate = previousRefreshRate == "60" ? "50" : "60";
                     Console.WriteLine("New refreshrate: " + previousRefreshRate);
 
