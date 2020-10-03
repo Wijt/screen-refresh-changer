@@ -7,3 +7,12 @@ C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\obj\D
 C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ScreenFixer.csproj.CoreCompileInputs.cache
 C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ScreenFixer.exe
 C:\Users\Wijt\Documents\Projeler\C-sharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ScreenFixer.pdb
+C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\bin\Debug\ScreenFixer.exe.config
+C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\bin\Debug\ScreenFixer.exe
+C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\bin\Debug\ScreenFixer.pdb
+C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\obj\Debug\ScreenFixer.csprojAssemblyReference.cache
+C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\obj\Debug\ScreenFixer.Properties.Resources.resources
+C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\obj\Debug\ScreenFixer.csproj.GenerateResource.cache
+C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\obj\Debug\ScreenFixer.csproj.CoreCompileInputs.cache
+C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\obj\Debug\ScreenFixer.exe
+C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\obj\Debug\ScreenFixer.pdb
