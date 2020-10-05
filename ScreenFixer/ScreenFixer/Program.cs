@@ -27,6 +27,7 @@ namespace ScreenFixer
             string deviceName = "";
             bool isKeyPressed = false;
             var handle = GetConsoleWindow();
+            ShowWindow(handle, SW_HIDE);
 
             while (true)
             {
@@ -34,6 +35,7 @@ namespace ScreenFixer
                 if ((Keyboard.IsKeyDown(Key.LeftCtrl) && Keyboard.IsKeyDown(Key.LeftShift) && Keyboard.IsKeyDown(Key.F)) && !isKeyPressed)
                 {
                     ShowWindow(handle, SW_SHOW);
+                    Console.WriteLine("Your wish is my command...");
                     isKeyPressed = true;
                     if (Screen.AllScreens.Length == 2)
                     {
