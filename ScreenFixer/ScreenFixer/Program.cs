@@ -24,12 +24,12 @@ namespace ScreenFixer
 
             var StartInfo = new ProcessStartInfo
             {
-                FileName = @"C:\Program Files (x86)\12noon Display Changer\dc64.exe",
+                FileName = configs.filePathTo12noon + "dc64.exe",
                 Arguments = " -monitor=\"" + deviceName + "\" -width=" + configs.width + " -height=" + configs.height + " -refresh=" + previousRefreshRate + " -depth=" + configs.depth,
                 UseShellExecute = false,
                 RedirectStandardOutput = true,
                 CreateNoWindow = false,
-                WorkingDirectory = @"C:\Program Files (x86)\12noon Display Changer\"
+                WorkingDirectory = configs.filePathTo12noon
             };
 
             using (Process process = Process.Start(StartInfo))

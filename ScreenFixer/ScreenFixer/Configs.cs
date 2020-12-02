@@ -8,6 +8,7 @@ namespace ScreenFixer
     {
         public string depth, rRate1, rRate2, width, height;
         public bool debugMode;
+        public string filePathTo12noon;
 
         public Configs(string configFileName = "configs.json")
         {
@@ -24,11 +25,12 @@ namespace ScreenFixer
             configs.rRate1 = (string)configsInFile["RefreshRateOne"];
             configs.rRate2 = (string)configsInFile["RefreshRateTwo"];
             configs.debugMode = (bool)configsInFile["DebugMode"];
+            configs.filePathTo12noon = (string)configsInFile["FilePathTo12noon"];
         }
 
         public override string ToString()
         {
-            return width + "x" + height + " " + depth + " " + rRate1 + " " + rRate2;
+            return width + "x" + height + " " + depth + " " + rRate1 + " " + rRate2 + " " + filePathTo12noon;
         }
     }
 }
