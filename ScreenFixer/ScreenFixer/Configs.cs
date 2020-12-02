@@ -8,6 +8,7 @@ namespace ScreenFixer
     {
         public string depth, rRate1, rRate2, width, height;
         public bool debugMode;
+
         public Configs(string configFileName = "configs.json")
         {
             Configs.Update(this, configFileName);
@@ -24,6 +25,7 @@ namespace ScreenFixer
             configs.rRate2 = (string)configsInFile["RefreshRateTwo"];
             configs.debugMode = (bool)configsInFile["DebugMode"];
         }
+
         public override string ToString()
         {
             return width + "x" + height + " " + depth + " " + rRate1 + " " + rRate2;

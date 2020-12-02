@@ -16,3 +16,6 @@ C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\Scree
 C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\obj\Debug\ScreenFixer.csproj.CoreCompileInputs.cache
 C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\obj\Debug\ScreenFixer.exe
 C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\obj\Debug\ScreenFixer.pdb
+C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Wijt\Documents\Projeler\Autoit\screen-refresh-changer\ScreenFixer\ScreenFixer\obj\Debug\ScreenFixer.csproj.CopyComplete
