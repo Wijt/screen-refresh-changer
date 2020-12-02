@@ -1,0 +1,11 @@
+{
+"ScreenSize":{
+	"Width":1920,
+	"Height":1080
+	},
+"Depth":32,
+"RefreshRateOne":50,
+"RefreshRateTwo":60,
+"FilePathTo12noon":"C:\\Program Files (x86)\\12noon Display Changer\\",
+"DebugMode":false
+}
